@@ -4088,6 +4088,9 @@ input, textarea {
 }
 
 @media (max-width: 991px) {
+    .hero_section{
+        padding: 120px 0px 90px;
+    }
 
     .projects_section,
     .services_grid_section,
@@ -4152,9 +4155,18 @@ input, textarea {
     .auth_visual_title {
         font-size: 28px;
     }
+    .about_content{
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 767px) {
+    .service_intro_bottom{
+        margin-bottom: 40px;
+    }
+    .quote_author{
+        margin-bottom: 30px;
+    }
     .project_item img {
         height: 240px;
     }
@@ -4305,4 +4317,5 @@ input, textarea {
         flex-direction: column;
         align-items: flex-start;
     }
+
 }
