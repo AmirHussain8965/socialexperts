@@ -195,15 +195,15 @@ input, textarea {
 /* 02. Common Classes & Buttons ===================== */
 .section_subtitle {
     font-family: var(--font_body);
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 12px;
     color: var(--color_black_soft);
     background: var(--color_white);
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    padding: 10px 20px;
-    border-radius: 65px;
+    padding: 7px 20px;
+    border-radius: 12px;
     border: 1px solid var(--color_border);
     box-shadow: 0px 9px 15px rgba(7, 18, 35, 0.08);
     margin-bottom: 25px;
@@ -275,7 +275,7 @@ input, textarea {
     right: 0;
     left: 0;
     z-index: 99;
-    padding: 12px 30px;
+    padding: 8px 30px;
     transition: all 0.4s ease;
 }
 
@@ -605,7 +605,7 @@ input, textarea {
 
 /* 06. Hero Section ===================== */
 .hero_section {
-    padding: 180px 0 90px;
+    padding: 120px 0 90px;
     background: linear-gradient(125deg,
             rgba(238, 208, 100, 0.1) 0%,
             rgba(51, 204, 121, 0.08) 25%,
@@ -650,7 +650,7 @@ input, textarea {
 }
 
 .hero_play {
-    display: flex;
+    display: none;
     align-items: center;
     gap: 12px;
 }
@@ -692,9 +692,10 @@ input, textarea {
 
 .hero_image img {
     width: 100%;
-    max-width: 480px;
+    max-width: 430px;
     border-radius: 20px;
-    filter: grayscale(100%);
+    height: 550px;
+    object-fit: cover;
 }
 
 .hero_shape {
@@ -876,7 +877,8 @@ input, textarea {
     width: 100%;
     border-radius: 20px;
     max-width: 500px;
-    filter: grayscale(100%);
+    height: 600px;
+    object-fit: cover;
 }
 
 .about_shape {
@@ -1674,7 +1676,7 @@ input, textarea {
     }
 
     .hero_section {
-        padding: 160px 0 70px;
+        padding: 120px 0 70px;
     }
 
     .about_content {
@@ -1702,7 +1704,7 @@ input, textarea {
 
 @media (max-width: 991px) {
     .header_section {
-        padding: 10px 15px;
+        padding: 8px 15px;
     }
 
     .navbar-collapse {
@@ -1729,7 +1731,7 @@ input, textarea {
     }
 
     .hero_section {
-        padding: 140px 0 60px;
+        padding: 100px 0 60px;
     }
 
     .hero_top {
@@ -4062,7 +4064,7 @@ input, textarea {
 /* Additional Pages Responsive ===================== */
 @media (max-width: 1366px) {
     .hero_section{
-        padding: 70px 0px 90px;
+        padding: 120px 0px 90px;
     }
 }
 @media (max-width: 1199px) {
